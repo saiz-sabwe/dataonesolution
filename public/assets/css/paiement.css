@@ -9,7 +9,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: url('banner.png');
   background-size: auto;
   height: 650px;
   background-repeat: no-repeat;
