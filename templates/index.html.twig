@@ -5,8 +5,7 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="shortcut icon" href="{{asset('assets/img/logo.jpg')}}" />
 	    <title>DataTechsolutions</title>
-      <meta name="author" content="data one solutions" />
-<meta
+      <meta name="author" content="data one solutions" /><meta
   name="informatique service et formation"
   content="Nous vous proposons une approche personnalisée qui répond à vos besoins spécifiques. Nous vous accompagnons dans toutes les étapes de votre projet, de l'audit à la mise en place des mesures de sécurité, en passant par la formation et la gestion des incidents." />
 
@@ -42,7 +41,7 @@
              <a class="nav-link" href="{{path('app_index')}}">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="HTML/formation.html">Formations</a>
+            <a class="nav-link" href="{{path('app_formation')}}">Formations</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#favs">Services</a>
@@ -161,7 +160,7 @@
                 </div>
               </div>
           </div>
-          <button class="btn btn-success btn-lg" type="button"><a href="HTML/formation.html" style="color: white;  text-decoration: none;">Voir plus </a></button>
+          <button class="btn btn-success btn-lg" type="button"><a href="{{path('app_formation')}}" style="color: white;  text-decoration: none;">Voir plus </a></button>
         </div>
 
 
@@ -177,9 +176,9 @@
       <div class="row align-items-md-stretch">
         <div class="col-md-6" style="margin-bottom: 30px;">
           <div class="h-100 p-5 bg-body-tertiary border rounded-3"  id="dimension">
-            <h2 id="for"><a href="HTML/formation.html"><img src="{{asset('assets/img/video-call.png')}}" style="height: 70px; width: 70px;"></a>Formations</h2>
+            <h2 id="for"><a href="{{path('app_formation')}}"><img src="{{asset('assets/img/video-call.png')}}" style="height: 70px; width: 70px;"></a>Formations</h2>
             <p>Les formations dispensées par <strong>Data Tech Solutions</strong> peuvent être une source d'éducation continue pour les personnes, ce qui peut leur permettre de rester à jour des dernières technologies et des innovations de l'industrie informatique.</p>
-            <button class="btn btn-outline-success" type="button"><a href="HTML/formation.html" style="color: black; text-decoration: none;">En savoir plus</a></button>
+            <button class="btn btn-outline-success" type="button"><a href="{{path('app_formation')}}" style="color: black; text-decoration: none;">En savoir plus</a></button>
           </div>
         </div>
         <div class="col-md-6" style="margin-bottom: 30px;" id="dimension1">
@@ -244,7 +243,7 @@
         <h2 style=" text-align: center; justify-content: center; margin-bottom: 20px;">TABLEAU DES PRIX DES CERTIFICATIONS DANS LES ACADEMIES MICROSOFT</h2>
         <div class="col-md-7">
         <img src="{{asset('assets/img/prix1.JPG')}}">
-        <button class="btn btn-success btn-lg" type="button" style="margin-bottom: 50px;"><a href="HTML/formation.html" style="color: white;  text-decoration: none;">En savoir plus </a></button></div>
+        <button class="btn btn-success btn-lg" type="button" style="margin-bottom: 50px;"><a href="{{path('app_formation')}}" style="color: white;  text-decoration: none;">En savoir plus </a></button></div>
         
       </div>
     </div>
